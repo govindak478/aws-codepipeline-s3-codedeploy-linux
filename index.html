@@ -1,35 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sample Deployment</title>
   <style>
     body {
-      color: #ffffff;
       background-color: #007f3f;
-      font-family: Arial, sans-serif;
-      font-size: 14px;
+      color: #ffffff;
+      font-family: 'Arial', sans-serif;
+      font-size: 16px;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
     }
     
     h1 {
-      font-size: 500%;
-      font-weight: normal;
-      margin-bottom: 0;
+      font-size: 4em;
+      font-weight: bold;
+      margin: 0.2em 0;
     }
     
     h2 {
-      font-size: 200%;
+      font-size: 2em;
       font-weight: normal;
-      margin-bottom: 0;
+      margin: 0.2em 0;
+    }
+    
+    p {
+      font-size: 1.2em;
+      margin-top: 1em;
+    }
+
+    .container {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 2em;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
   </style>
 </head>
 <body>
-  <div align="center">
+  <div class="container">
     <h1>Congratulations!</h1>
     <h2>Successfully Created Code Pipeline for Practical 2.</h2>
-    <p>For next steps, read the AWS CodePipeline Documentation.</p>
+    <p>For next steps, read the <a href="https://docs.aws.amazon.com/codepipeline/latest/userguide/welcome.html" style="color: #00ffcc; text-decoration: none;">AWS CodePipeline Documentation</a>.</p>
   </div>
 </body>
 </html>
-
